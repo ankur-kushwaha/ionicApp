@@ -1,0 +1,8 @@
+<h2>home</h2>
+<p>{{home.ctrlName}}</p>
+<ion-list>
+
+  <ion-checkbox ng-repeat="item in home.items" ng-model="item.state" ng-change="home.items.$save(item)" >{{item.text}}  {{item.state}}</ion-checkbox>
+
+</ion-list>
+</div> 
